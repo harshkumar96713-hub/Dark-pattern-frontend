@@ -4,17 +4,16 @@
   "version": "1.0.0",
   "private": true,
 
-  "scripts": {
-    "dev": "expo start",
-    "start": "expo start --web",
-    "web": "expo start --web",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "lint": "expo lint",
-    "reset-project": "node ./scripts/reset-project.js",
-
-    "build": "expo export:web"
-  },
+"scripts": {
+  "dev": "expo start",
+  "start": "expo start --web",
+  "web": "expo start --web",
+  "android": "expo start --android",
+  "ios": "expo start --ios",
+  "lint": "expo lint",
+  "reset-project": "node ./scripts/reset-project.js",
+  "build": "expo export"
+},
 
   "dependencies": {
     "@babel/runtime": "^7.20.6",
